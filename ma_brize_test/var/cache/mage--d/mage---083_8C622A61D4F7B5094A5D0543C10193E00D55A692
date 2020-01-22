@@ -1,0 +1,38 @@
+<div class="ma-block-static-1 banner-static banner-box">
+<div class="container">
+<div class="row">
+<div class="col col1 col-md-4 col-sm-4 col-sms-12 col-smb-12">
+<div class="ma-box box1">
+<div class="iner-box top ">
+<div class="text">
+<h2>Uniformes Esportivos</h2>
+</div>
+<a class="img" href="#"><img alt="" src="http://127.0.0.1/ma_brize_test/media/wysiwyg/static1.jpg" /></a></div>
+<div class="iner-box bottom">
+<div class="text">
+<h2>Batas Profissionais</h2>
+</div>
+<a class="img" href="http://127.0.0.1/ma_brize_test/index.php/batas-profissionais.html" target="_blank"><img alt="" src="http://127.0.0.1/ma_brize_test/media/wysiwyg/home2_img2.jpg" /></a></div>
+</div>
+</div>
+<div class="col col1 col-md-4 col-sm-4 col-sms-12 col-smb-12">
+<div class="ma-box box2">
+<div class="iner-box">
+<div class="text">
+<h2>Roupas Sociais</h2>
+</div>
+<a class="img" href="#"><img alt="" src="http://127.0.0.1/ma_brize_test/media/wysiwyg/static3.jpg" /></a></div>
+</div>
+</div>
+<div class="col col1 col-md-4 col-sm-4 col-sms-12 col-smb-12">
+<div class="ma-box box3">
+<div class="iner-box">
+<div class="text">
+<h2>Bon&eacute;s</h2>
+</div>
+<a class="img" href="#"><img alt="" src="http://127.0.0.1/ma_brize_test/media/wysiwyg/static4.jpg" /></a></div>
+</div>
+</div>
+</div>
+</div>
+</div>

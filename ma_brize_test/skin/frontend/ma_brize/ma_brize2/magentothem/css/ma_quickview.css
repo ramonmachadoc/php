@@ -1,0 +1,48 @@
+#quickview-bg-block {  display: none; background-color : rgba(0,0,0,0.35); top: 0; left: 0; right: 0; bottom: 0;  margin: auto; position: fixed; z-index: 90;  }
+
+.quickview-load-img {  display: none; position: fixed; top: 50%; left: 0; right: 0; bottom: 0; text-align: center; z-index: 91; margin: auto;}
+
+.a-qv-close {
+    position: fixed;
+    z-index: 9999;
+    font-size: 0;
+}
+.qv-button-container { position: relative }
+#quickview-content {
+    position: fixed;
+    background-color: #FFFFFF;
+    border: solid 2px #000000;
+    display: none;
+    z-index: 95;
+    width: 92%;
+    height: 86%;
+    top: 7%;
+    left: 4%;
+    overflow: auto !important;
+}
+
+.zoomContainer { z-index: 1000; }
+
+.a-qv-close:before { display: block; font-family: FontAwesome; font-size: 20px; content:"\f00d"; width: 30px; height: 30px; text-align: center; line-height: 30px; color: #fff; background: #fe4669; border-radius: 100%; }
+.qv-button-container { 
+    color: #fff;
+  display: inline-block;
+  font-weight: normal;
+  height: 36px;
+  line-height: 36px;
+  padding: 0;
+  position: relative;
+  text-align: center;
+  text-shadow: none;
+  width: 42px;
+  font-size: 0px;
+  background-color: #3e3e3e;
+}
+.qv-button-container:hover {     border-color: #fff; background-color: #47d5d2; }
+.qv-button-container button { border: 0; background: none; width: 100%; }
+.qv-button-container button span { font-size: 12px; }
+.qv-button-container button span .fa { font-size: 14px;  color: #fff;  text-align: center; line-height: 36px;}
+.qv-button-container:hover span .fa{ color: #fff;}
+div#quickview-content .ma-relatedslider-container{display: none;}
+#quickview-content .product-view{padding: 20px;}
+#quickview-content .product-view .more-views{top: 15px;}

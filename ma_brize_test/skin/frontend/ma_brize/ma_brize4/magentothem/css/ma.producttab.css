@@ -1,0 +1,148 @@
+.tab {
+	display:none;
+}
+ 
+.tab.active {
+	display:block;
+}
+#producttabs .item h3{
+	display: block;
+	float: left;
+	color: #898989;
+}
+#producttabs{
+	 background: #212121;  padding: 0;
+	margin-bottom:45px;
+	    padding: 0 15px;
+}
+.item_inner img{
+	width:100%;
+}
+
+.item_inner{
+     padding: 15px 15px 0;
+    position: relative;
+}
+
+.item_inner:before{
+	    content: "";
+    background: rgb(255, 255, 255);
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    border: 1px solid rgb(236, 236, 236);
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    opacity: 0;
+    transition: all 0.4s ease-out;
+}
+ .item_inner:hover:before{
+	    opacity: 1;
+}
+ .product_bottom{width: 100%;}
+.product_bottom .pr_gridview{
+	    display: block;
+    text-align: center;
+
+}
+.product_bottom .pr_listview{display: block;    text-align: center; padding-bottom: 15px; }
+.product_bottom .pr_listview .actions{
+
+    text-align: center;
+    height: 50px;
+    padding: 7px 0px;
+    background-color: rgb(255, 255, 255);
+     opacity: 0;
+     -moz-transform: translateY(-40px);
+     -webkit-transform: translateY(-40px);
+     -o-transform: translateY(-40px);
+     -ms-transform: translateY(-40px);
+     transform: translateY(-40px);
+     transition: 0.25s ease-out;
+     -moz-transition: 0.25s ease-out;
+     -webkit-transition: 0.25s ease-out;
+
+}
+.item_inner:hover .product_bottom .pr_listview .actions{
+	  opacity: 1;
+    -moz-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -o-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+    z-index: 1;
+    position: relative;
+}
+
+
+.product_bottom .pr_listview button.button span{
+	    background: rgb(205, 205, 205);
+    text-indent: 0px;
+    width: auto;
+    padding: 0px 15px;
+        line-height: 36px;
+}
+.product_bottom .pr_listview button.button span:hover{
+	    background: rgb(32, 32, 32);
+}
+	
+.product_bottom .pr_listview .add-to-links{
+    display: inline-block;
+    vertical-align: middle;
+}
+.product_bottom .pr_listview .add-to-links a.link-wishlist{
+	    position: absolute;
+    right: -45px;
+    top: 7px;
+      
+}
+.product_bottom .pr_listview .add-to-links li a.link-compare{
+	    position: absolute;
+    left: -45px;
+    top: 7px;
+}
+.product_bottom .pr_listview .add-to-links a i{font-size:14px;line-height: 36px; }
+.product_bottom .pr_listview .add-to-links li a{
+	 background: rgb(205, 205, 205);
+    color: rgb(255, 255, 255);
+    border-radius: 0px;
+    box-shadow: none;
+    display: block;
+    font-weight: normal;
+    height: 36px;
+    line-height: 36px;
+    overflow: hidden;
+    padding: 0px;
+    position: relative;
+    text-align: center;
+    font-size: 0px;
+    text-shadow: none;
+    width: 42px;
+}
+.product_bottom .pr_listview .add-to-links li a:hover{
+	    background: rgb(32, 32, 32);
+}
+.product_bottom .pr_listview ul.add-to-links {
+	display: inline-block;
+vertical-align: middle;
+}
+ .product_bottom .pr_listview .add-to-links li a.{
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0px;
+}
+.product_bottom .pr_listview .actions{
+	    position: relative;
+    display: inline-block;
+}
+
+ .item_inner:hover{
+	z-index: 1;
+}
+.last-row{margin-top: -35px;}

@@ -1,0 +1,48 @@
+<?php
+$enabled_slide = Mage::getStoreConfig('blog/slide/enabled');
+if($enabled_slide):
+	$itemsTablet = $this->getConfig('itemsTablet');
+	$itemsMobile = $this->getConfig('itemsMobile');
+	$show_image = $this->getConfig('showimage');
+	$show_title = $this->getConfig('showtitle');
+	$show_author = $this->getConfig('showauthor');
+	$show_time = $this->getConfig('showtime');
+	$show_shortcontent = $this->getConfig('showshortcontent');
+	$showcomment = $this->getConfig('showcomment');
+	$show_readmore = $this->getConfig('showreadmore');
+?>
+	<?php $post = $this->getRecent()->getFirstItem(); ?>
+	<?php if($post): ?>
+		<div class="menu-recent">
+		<!--<div class="container">-->
+			<div class="blog-titles ma-title"><h2>FROM TO BLOG</h2></div>
+			<div class="item-inner">
+					<div class="blog-image">
+						<?php if($show_image): ?>
+							<?php if($post->getAddress()): ?><a href="<?php echo $post->getAddress(); ?>" ><?php endif; ?>
+							<?php echo '<img alt="" src="'.Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_MEDIA). $post->getThumbnailimage().'"/>'; ?>
+							<?php if($post->getAddress()): ?></a><?php endif; ?>
+						<?php endif; ?>
+						<div class="time-conment">
+							<?php if($show_author) echo '<span class="author">By '.$post->getUser().'</span>'; 
+								if($show_author && $show_time) echo ''; 
+								if($show_time) echo '<span class="date-time"><i class="fa fa-calendar"></i>' .date("d M Y", $date).'</span>'; ?>
+							<?php if($showcomment) echo '<span class="comments"><i class="fa fa-comments-o"></i>'.$this->getcountcomment($post->getPostId()) .' comments </span>' ?>
+						</div>
+						
+					</div>
+					<div class="blog-content">
+						<?php if($show_title): ?> <h3 class="blog-title"><a href="<?php echo $post->getAddress(); ?>" ><?php echo $post->getTitle() ?></a></h3> <?php endif; ?>
+						<?php $s = $post->getCreatedTime(); $date = strtotime($s); ?>
+						<?php if($show_shortcontent) echo '<p>' .strip_tags($this->getContentBlogSidebar($post->getShortContent(),120)) .'</p>';?>
+						
+						<?php if($show_readmore): ?> <a class="readmore" href="<?php echo $post->getAddress(); ?>">Read more <i class="fa fa-caret-right"></i></a> <?php endif; ?>
+					</div>
+			</div>
+
+			<!--</div>-->
+		</div>
+	<?php else: ?>
+	<p class="note-msg"><?php echo $this->__('There are no blog matching the selection.') ?></p>
+	<?php endif; ?>
+<?php endif; ?>

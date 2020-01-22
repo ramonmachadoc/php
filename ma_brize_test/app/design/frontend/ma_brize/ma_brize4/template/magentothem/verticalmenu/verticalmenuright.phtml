@@ -1,0 +1,37 @@
+<?php if( $this->getConfig('enabled') && $this->getConfig('rightmenu') ): ?>
+	<div class="block block-verticalmenu menu_right">
+		<?php if( $this->getConfig('title') ): ?>
+			<div class="block-title"><strong><span><?php echo $this->getConfig('title') ?></span></strong></div>
+		<?php endif; ?>
+		<div class="block-content">
+			<?php $_menu = $this->renderCategoriesMenuHtml(0,'level-top') ?>
+			<?php if($_menu): ?>
+				<ul id="ma-<?php echo $this->getConfig('rightmenu') ?>" class="<?php echo $this->getConfig('rightmenu') ?>">
+					<?php echo $_menu ?>
+				</ul>
+				<?php if($this->getCountCategoryActive() > Mage::getStoreConfig('verticalmenu/verticalmenu_config/item_show')): ?>
+					<div class="more-wrap active-i">
+						<span class="more-view">More Categories</span>
+					</div>
+				<?php endif; ?>
+			<?php endif ?>
+		</div>
+	</div>
+<?php endif; ?>
+<script type="text/javascript">
+	$jq(document).ready(function(){
+		$jq('.menu_right .more-wrap').click(function(){
+			$jq('.menu_right .extra_menu').slideToggle();
+			if($jq(".menu_right .more-wrap .more-view").hasClass('open'))
+			{
+				$jq(".menu_right .more-wrap .more-view").removeClass('open');
+				$jq(".menu_right .more-wrap .more-view").text('More Categories');
+			}
+			else
+			{
+				$jq(".menu_right .more-wrap .more-view").addClass('open');
+				$jq(".menu_right .more-wrap .more-view").text('Close Menu');
+			}
+		});
+	});
+</script>

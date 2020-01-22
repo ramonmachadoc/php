@@ -1,0 +1,36 @@
+<h3>Seus Pedidos</h3>
+<div class="inner-footer-bottom">
+<div class="footer-static-content">
+<ul>
+<li class="first"><a href="#">Status do pedido</a></li>
+<li><a href="#">Frete</a></li>
+<li><a href="#">Devolu&ccedil;&otilde;es e trocas</a></li>
+</ul>
+</div>
+</div>
+<div class="footer-box box-footer2"><br />
+<h3>Sobre n&oacute;s</h3>
+<div class="inner-footer-bottom">
+<div class="footer-static-content">
+<ul>
+<li class="first"><a href="#">Nossa hist&oacute;ria</a></li>
+<li><a href="#">Carreira</a></li>
+<li><a href="#">Responsabilidade social</a></li>
+<li><a href="#">Mapa</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="footer-box box-footer3">
+<div class="inner-footer-top">
+<div class="footer-static-title">
+<h3>Informa&ccedil;&atilde;o</h3>
+</div>
+<div class="footer-static-content">
+<ul>
+<li class="first"><a href="#">Informa&ccedil;&atilde;o de entrega</a></li>
+<li><a href="#">Pedido e devolu&ccedil;&atilde;o</a></li>
+</ul>
+</div>
+</div>
+</div>

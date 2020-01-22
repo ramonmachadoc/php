@@ -1,0 +1,232 @@
+<?xml version="1.0"?>
+<ma_zonker1>
+    <blocks>
+       
+        <block>
+            <title>Footer Link payment</title>
+            <identifier>footer_payment</identifier>
+            <content>
+                    <![CDATA[
+					<ul class="payment">
+						<li><a href="#"><img alt="" src="{{media url="wysiwyg/payment_1.png"}}" /></a></li>
+					</ul>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Contact Us</title>
+            <identifier>pt_menu_links</identifier>
+            <content>
+                    <![CDATA[
+					<ul>
+					<li><a href="{{store url="contacts"}}">Contact Us</a></li>
+					<li><a href="{{store direct_url="about-magento-demo-store"}}">About us</a></li>
+					</ul>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Block menu</title>
+            <identifier>pt_menu_idcat_3</identifier>
+            <content>
+                    <![CDATA[
+					<div class="banner-static">
+					<div class="row">
+					<div class="col col1 col-md-4 col-sm-4 col-sms-12 col-smb-12"><a href="{{store direct_url="footwear.html"}}"><img alt="" src="{{media url="wysiwyg/block-menu1.jpg"}}" /></a></div>
+					<div class="col col2 col-md-4 col-sm-4 col-sms-12 col-smb-12"><a href="{{store direct_url="footwear.html"}}"><img alt="" src="{{media url="wysiwyg/block-menu2.jpg"}}" /></a></div>
+					<div class="col col3 col-md-4 col-sm-4 col-sms-12 col-smb-12"><a href="{{store direct_url="footwear.html"}}"><img alt="" src="{{media url="wysiwyg/block-menu3.jpg"}}" /></a></div>
+					</div>
+					</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+       
+        <block>
+            <title>Footer Static</title>
+            <identifier>footer_static</identifier>
+            <content>
+                <![CDATA[
+				<div class="footer-static-top">
+				<div class="row">
+				<div class="f-col f-col-1 col-sm-6 col-md-3 col-sms-6 col-smb-12"><a href="#"><img alt="" src="{{media url="wysiwyg/logo-footer.png"}}" /></a>
+				<div class="footer-static-content">
+				<p class="des">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut.</p>
+				<div class="footer-contact">
+				<p class="adress"><em class="fa fa-map-marker">&nbsp;</em><span class="ft-content">8901 Marmora Road, Glasgow <span>D04 89 GR, New York</span></span></p>
+				<p class="phone"><em class="fa fa-phone">&nbsp;</em><span class="ft-content">Telephone: (801) 2345 - 6789 <span>Fax: (801) 2345 - 6789</span></span></p>
+				<p class="email"><em class="fa fa-envelope">&nbsp;</em><span class="ft-content">Email: support@plazathemes.com <span>Website: plazathemes.com</span></span></p>
+				</div>
+				</div>
+				</div>
+				<div class="f-col f-col-24 col-sm-6 col-md-3 col-sms-6 col-smb-12">
+				<div class="footer-static-title">
+				<h3>Information</h3>
+				</div>
+				<div class="footer-static-content">
+				<ul>
+				<li class="first"><a href="{{store direct_url="catalog/seo_sitemap/category"}}">Sitemap</a></li>
+				<li><a href="{{store direct_url="privacy-policy-cookie-restriction-mode"}}">Privacy Policy</a></li>
+				<li><a href="{{store direct_url="customer/account/index"}}">Your Account</a></li>
+				<li><a href="{{store direct_url="catalogsearch/advanced"}}">Advanced Search</a></li>
+				<li class="last"><a href="{{store direct_url="contacts"}}">Contact Us</a></li>
+				</ul>
+				</div>
+				</div>
+				<div class="f-col f-col-24 col-sm-6 col-md-3 col-sms-6 col-smb-12">
+				<div class="footer-static-title">
+				<h3>Contact us</h3>
+				</div>
+				<div class="footer-static-content">
+				<ul>
+				<li class="first"><a href="#">Product Recall</a></li>
+				<li><a href="#">Gift Vouchers</a></li>
+				<li><a href="#">Returns and Exchanges</a></li>
+				<li><a href="#">Shipping Options</a></li>
+				<li class="last"><a href="#">Help &amp; FAQs</a></li>
+				</ul>
+				</div>
+				</div>
+				<div class="f-col f-col-3 col-sm-6 col-md-3 col-sms-6 col-smb-12">
+				<div class="footer-static-title">
+				<h3>New letter</h3>
+				</div>
+				<div class="footer-static-content">{{block type="newsletter/subscribe" name="newsletter" template="newsletter/subscribe.phtml"}}
+				<ul class="link-follow">
+				<li class="first"><a class="twitter fa fa-twitter" href="https://twitter.com/plazathemes"><span>twitter</span></a></li>
+				<li><a class="google fa fa-google-plus" href="#"><span>google </span></a></li>
+				<li><a class="facebook fa fa-facebook" href="https://www.facebook.com/plazathemes"><span>facebook</span></a></li>
+				<li><a class="youtube fa fa-youtube" href="https://www.youtube.com/user/plazathemes"><span>youtube </span></a></li>
+				</ul>
+				</div>
+				</div>
+				</div>
+				</div>
+                ]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+
+		<block>
+            <title>Banner Left</title>
+            <identifier>banner_left</identifier>
+            <content>
+                   <![CDATA[
+						<div class="hidden-xs banner-left"><a href="#"><img alt="" src="{{media url="wysiwyg/banner-left.jpg"}}" /></a></div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Banner Right</title>
+            <identifier>banner_right</identifier>
+            <content>
+                   <![CDATA[
+						<div class="hidden-xs banner-left"><a href="#"><img alt="" src="{{media url="wysiwyg/banner-left.jpg"}}" /></a></div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Ma Block Static 1</title>
+            <identifier>ma_block_static_1</identifier>
+            <content>
+                   <![CDATA[
+					<div class="ma-block-static-1 banner-static">
+					<div class="row">
+					<div class="col col1 col-md-6 col-sm-6 col-sms-12 col-smb-12"><a href="{{store direct_url="footwear.html"}}"><img alt="" src="{{media url="wysiwyg/banner1.jpg"}}" /></a></div>
+					<div class="col col2 col-md-6 col-sm-6 col-sms-12 col-smb-12">
+					<div class="top-static1"><a class="top-st1" href="{{store direct_url="footwear.html"}}"><img alt="" src="{{media url="wysiwyg/banner12.jpg"}}" /></a> <a href="{{store direct_url="footwear.html"}}"><img alt="" src="{{media url="wysiwyg/banner13.jpg"}}" /></a></div>
+					<a href="{{store direct_url="footwear.html"}}"><img alt="" src="{{media url="wysiwyg/banner14.jpg"}}" /></a></div>
+					</div>
+					</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Ma Block Static 3</title>
+            <identifier>ma_block_static_3</identifier>
+            <content>
+                   <![CDATA[
+						<div class="ma-block-static-1 ma-block-static-3"><a href="{{store direct_url="texudo.html"}}"><img alt="" src="{{media url="wysiwyg/banner23.jpg"}}" /></a></div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Contact Us</title>
+            <identifier>contact_us</identifier>
+            <content>
+                   <![CDATA[
+						<div class="contact-us"><iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6305.678625317825!2d-122.39957047637722!3d37.793805380191266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858063d63a0215%3A0xcba0af2dfe02048f!2s101+California+Street%2C+San+Francisco%2C+CA+94111%2C+Hoa+K%E1%BB%B3!5e0!3m2!1svi!2s!4v1419099932976" height="350" width="100%"></iframe></div>
+						]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Header Phone</title>
+            <identifier>header_phone</identifier>
+            <content>
+                   <![CDATA[
+						<div class="header-phone">
+							<p><em class="fa fa-phone">&nbsp;</em>Call support free: <span>123 456 789</span></p>
+						</div>
+						]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Contact Us</title>
+            <identifier>contact_us</identifier>
+            <content>
+			   <![CDATA[
+					<div class="contact-us"><iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6305.678625317825!2d-122.39957047637722!3d37.793805380191266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858063d63a0215%3A0xcba0af2dfe02048f!2s101+California+Street%2C+San+Francisco%2C+CA+94111%2C+Hoa+K%E1%BB%B3!5e0!3m2!1svi!2s!4v1419099932976" height="350" width="100%"></iframe></div>
+				]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+
+		<block>
+            <title>Header Phone</title>
+            <identifier>header_phone</identifier>
+            <content>
+			   <![CDATA[
+					<div class="header-phone">
+					<p><em class="fa fa-phone">&nbsp;</em>Call support free: <span>123 456 789</span></p>
+					</div>
+				]]>
+            </content>
+            <is_active>1</is_active>
+        </block>		
+		<block>
+            <title>Ma Block Static 2</title>
+            <identifier>ma_block_static_2</identifier>
+            <content>
+			   <![CDATA[
+					<div class="ma-block-static-2 banner-static">
+					<div class="row">
+					<div class="col col1 col-md-6 col-sm-6 col-sms-12 col-smb-12"><a href="{{store direct_url='footwear.html'}}"><img alt="" src="{{media url='wysiwyg/banner15.jpg'}}" /></a></div>
+					<div class="col col2 col-md-6 col-sm-6 col-sms-12 col-smb-12">
+					<div class="top-static-2"><a href="{{store direct_url='footwear.html'}}"><img alt="" src="{{media url='wysiwyg/banner16.jpg'}}" /></a><a href="{{store direct_url='footwear.html'}}"><img alt="" src="{{media url='wysiwyg/banner17.jpg'}}" /></a></div>
+					</div>
+					</div>
+					</div>
+				]]>
+            </content>
+            <is_active>1</is_active>
+        </block>	
+	
+    </blocks>
+</ma_zonker1>
+

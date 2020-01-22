@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<ma_zonker1>
+    <resources>
+        <resource>
+            <title>Home page ma_zonker1</title>
+            <identifier>ma_zonker1_home</identifier>
+            <root_template>one_column</root_template>
+				<content><![CDATA[
+					<div class="top-home-content">{{block type="cms/block" block_id="ma_block_static_1"}}{{widget type="categorytabsliders/advanced" title="Texudo" identify="texudo" cat_ids="3,4,5" template="magentothem/categorytabsliders/categorytabsliders.phtml" products_count="15" items_default="4" items_desktop="4" items_desktop_small="3" items_tablet="2" items_mobile="1" row_show="1" width_thumbnail="270" height_thumbnail="334"}}</div>
+					<div class="bottom-home-content">{{block type="newproductslider/newproductslider" template="magentothem/newproductslider/newproductslider.phtml" }} {{block type="cms/block" block_id="ma_block_static_2"}}</div>
+				]]></content>
+				<sort_order>1</sort_order>
+            <is_active>1</is_active>
+        </resource>
+    </resources>
+	<resources>
+        <resource>
+            <title>404 Not Found Custom</title>
+            <identifier>no-route-custom</identifier>
+            <root_template>one_column</root_template>
+				<content><![CDATA[
+					<div class="not-found-bg">not-found-bg</div>
+					<div class="page-not-found">
+					<h1><a href="{{store url=""}}"><img alt="" src="{{media url="wysiwyg/logo.png"}}" /></a></h1>
+					<h2>404</h2>
+					<p>The page you requested cannot be found.</p>
+					<p><a href="{{store url=""}}">go to home</a></p>
+					{{block type="core/template" name="top.search" as="topSearch" template="catalogsearch/form.mini.phtml"}}<address>Copyright &copy; 2015 <a href="http://www.plazathemes.com/">http://www.plazathemes.com/</a>. All Rights Reserved</address></div>
+				]]></content>
+				<sort_order>1</sort_order>
+            <is_active>1</is_active>
+        </resource>
+    </resources>
+</ma_zonker1>

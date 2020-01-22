@@ -1,0 +1,51 @@
+
+.bloco-declaracao{
+    font-family: "Arial";
+    font-size: 23px;
+    padding-top: 50px;
+
+
+    width: 1000px;
+    background-color: #F7F8FA;
+    border: 5px 5px 5px 5px  #888;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px #666;
+}
+#titulo{
+    margin-top: 80px;
+    padding-bottom: 180px;
+}
+
+p {
+
+    margin: auto;
+    width: 800px;
+    text-align: justify;
+    text-indent:50px;
+
+}
+.paragrafo{
+    line-height:1.8;
+}
+.bloco-data{
+
+    margin-top: 250px;
+
+
+
+}
+.fonte-assinatura{
+	font-size: 9px;
+
+}
+.bloco-rodape{
+    margin-top: 180px;
+    font-size: 18px;
+}
+.bloco-rodape-cursou{
+    margin-top: 255px;
+    font-size: 18px;
+}
+.imprimir{
+    text-align: center;
+}

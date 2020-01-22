@@ -1,0 +1,89 @@
+
+<div class="ma-footer-static">
+	<div class="footer-static">
+		<div class="container">
+			<div class="container-inner">
+			<h3>Seus Pedidos</h3>
+<div class="inner-footer-bottom">
+<div class="footer-static-content">
+<ul>
+<li class="first"><a href="#">Status do pedido</a></li>
+<li><a href="#">Frete</a></li>
+<li><a href="#">Devolu&ccedil;&otilde;es e trocas</a></li>
+</ul>
+</div>
+</div>
+<div class="footer-box box-footer2"><br />
+<h3>Sobre n&oacute;s</h3>
+<div class="inner-footer-bottom">
+<div class="footer-static-content">
+<ul>
+<li class="first"><a href="#">Nossa hist&oacute;ria</a></li>
+<li><a href="#">Carreira</a></li>
+<li><a href="#">Responsabilidade social</a></li>
+<li><a href="#">Mapa</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="footer-box box-footer3">
+<div class="inner-footer-top">
+<div class="footer-static-title">
+<h3>Informa&ccedil;&atilde;o</h3>
+</div>
+<div class="footer-static-content">
+<ul>
+<li class="first"><a href="#">Informa&ccedil;&atilde;o de entrega</a></li>
+<li><a href="#">Pedido e devolu&ccedil;&atilde;o</a></li>
+</ul>
+</div>
+</div>
+</div>			</div>
+		</div>
+	</div>
+</div>
+
+<div class="ma-footer">
+	<div class="footer">
+	<div class="container">
+			<div class="container-inner">
+		<div class="row">
+			<div class="col col1 col-md-8 col-sm-12 col-sms-12 col-smb-12">
+											</div>
+			<div class="col col1 col-md-4 col-sm-12 col-sms-12 col-smb-12">
+								<ul class="payment">
+<li><a href="#"><img alt="" src="http://127.0.0.1/ma_brize_test/media/wysiwyg/pay.png" /></a></li>
+</ul>			</div>
+		</div>
+		<div id="back-top" class="hidden-xs"></div>
+	</div>
+	</div>
+	</div>
+</div>
+<div class="footer-coppyright">
+	<div class="container">
+		<div class="footer_bottom">
+		<div class="row">
+			<div class="col col1 col-md-7 col-sm-12 col-sms-12 col-smb-12">
+				<p><em><strong><span class="ft-content">&nbsp;</span></strong></em></p>
+<div class="footer-static-content">
+<div class="footer-contact"><em><strong><span class="ft-content"><span class="LrzXr">Telefone: (92) 3238-5589</span></span></strong></em></div>
+<div class="footer-contact"><span class="ft-content"><em><strong>E-mail: contato@creaative360.com.br</strong></em><br /></span></div>
+<div class="footer-contact"><span class="ft-content"><em><strong>Endere&ccedil;o: Av. T&oacute;kio, 5 - Planalto, Manaus - AM, 69045-20</strong></em></span></div>
+</div>			</div>
+			<div class="col col1 col-md-5 col-sm-12 col-sms-12 col-smb-12">
+				<div class="bottom-right">
+<div class="footer-contact">
+<ul class="link-follow">
+<li class="first"><a class="twitter fa fa-twitter" href="https://twitter.com/plazathemes"><span>twitter</span></a></li>
+<li><a class="google fa fa-google-plus" href="#"><span>google </span></a></li>
+<li><a class="facebook fa fa-facebook" href="https://www.facebook.com/plazathemes"><span>facebook</span></a></li>
+<li><a class="youtube fa fa-youtube" href="https://www.youtube.com/user/plazathemes"><span>youtube </span></a></li>
+</ul>
+</div>
+</div>				<address>Copyright © <a href="http://www.plazathemes.com/" class="footer-text">PlazaThemes</a>. All Rights Reserved.</address>
+			</div>
+		</div>
+		</div>
+	</div>
+</div>

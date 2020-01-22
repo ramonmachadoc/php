@@ -1,0 +1,39 @@
+.testimonial-sidebar-content{display: inline-block; width: 100%;}
+.block.block-testimonial-sidebar .block-title{display: none;}
+.testimonial-content-avatar{text-align: center;}
+.testimonial-sidebar-content .content{float: left;}
+.block-testimonial-sidebar .block-content { margin-right: 0px !important;
+        padding: 5px 9px;
+    margin-left: 0px !important;
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+       background: url(../images/bgr_testimo.jpg) 50% no-repeat;
+    z-index: -1;
+}
+.block-testimonial-sidebar .testimonial-sidebar-content a{text-decoration:none; color:#959595;font-size: 14px; }
+.block-testimonial-sidebar .testimonial-sidebar-content .testimonial-author {
+	font-size: 16px;
+	font-style: normal;
+	color: #ececec;
+	display: block;
+	font-weight: bold;
+	line-height: 30px;
+	    text-transform: uppercase;
+}
+.testimonial-date {
+	font-size: 12px;
+	display: block;
+	font-weight: bold;
+	line-height: 30px;
+	color: #ececec;
+}
+.testimonial-top{text-align: center;    margin-top: 15px;}
+.block.block-testimonial-sidebar{   
+   
+}
+.post-by{
+	    text-align: center;
+    width: 70%;
+    position: relative;
+    left: 15%;
+}

@@ -1,0 +1,32 @@
+-- ADIMPLENTES
+SELECT * FROM mensalidade
+INNER JOIN movimento_financeiro ON mensalidade.mensalidade_id = movimento_financeiro.mensalidades_id
+WHERE men_dt_vencto = '2018-04-07' GROUP BY mensalidades_id
+
+
+
+-- INADIMPLENTES
+SELECT * FROM mensalidade
+WHERE NOT EXISTS (SELECT * FROM movimento_financeiro
+WHERE mensalidade.mensalidade_id = movimento_financeiro.mensalidades_id)
+AND men_dt_vencto = '2018-04-07'
+
+
+COM OS DADOS DOS ALUNOS
+
+SELECT * FROM mensalidade
+INNER JOIN movimento_financeiro ON mensalidade.mensalidade_id = movimento_financeiro.mensalidades_id
+INNER JOIN matricula_aluno_turma ON  matricula_aluno_turma.matricula_aluno_turma_id = mensalidade.matricula_aluno_turma_id
+INNER JOIN matricula_aluno ON matricula_aluno.matricula_aluno_id = mensalidade.matricula_aluno_id
+INNER JOIN cadastro_aluno ON cadastro_aluno.cadastro_aluno_id = matricula_aluno.cadastro_aluno_id
+-- INNER JOIN turma ON turma.turma_id = matricula_aluno_turma.turma_id
+WHERE men_dt_vencto = '2018-04-07' GROUP BY mensalidades_id
+
+
+-- ADD CHAVE ESTRANGEIRA
+ALTER TABLE avaliacao
+ADD FOREIGN KEY (pe_nb_codigo) REFERENCES plano_ensino(pe_nb_codigo);
+
+
+--- titulo----------------
+COLETANEA DE LEGISLACAO DE COMUNICACAO SOCIAL
